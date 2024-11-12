@@ -54,14 +54,7 @@
   max-width: 709px;
 }
 
-.header__h1 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 58px;
-  line-height: 72px;
-  letter-spacing: 1px;
-}
+
 
 .header__span-accent {
   display: flex;
@@ -107,7 +100,7 @@
   color: #838383;
 }
 
-.header_timetable {
+.header__timetable {
   display: flex;
   flex-direction: column;
   position: absolute;
