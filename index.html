@@ -17,7 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <title>Cafetería</title>
   </head>
@@ -35,7 +34,7 @@
             <li class="nav__link">
               <a href="#reservation">Reservar una mesa</a>
             </li>
-            <li class="nav__link"><a href="#">Contactos</a></li>
+            <li class="nav__link"><a href="#footer">Contactos</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -161,15 +160,48 @@
               </button>
             </fieldset>
             <fieldset class="form__fieldset form__fieldset_center">
-              <label for="label-checkbox" class="form__label form__label_checkbox">
-                <input type="checkbox" name="checkbox" id="label-checkbox" class="form__checkbox" />
+              <label
+                for="label-checkbox"
+                class="form__label form__label_checkbox"
+              >
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  id="label-checkbox"
+                  class="form__checkbox"
+                />
                 <span class="form__label-text">Acepto los términos de uso</span>
               </label>
             </fieldset>
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__circle"></div>
+        <section class="footer__content">
+          <img
+            src="images/logo_coffeeshop_light.svg"
+            alt="logo_del_footer"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Redes sociales</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <img src="images/facebook_white.svg" alt="logo Faceboock" class="footer__social-icon">
+                <a href="#" class="footer__social-link">facebook</a>
+              </li>
+              <li class="footer__list-item">
+                <img src="images/instagram_white.svg" alt="Logo Instagram" class="footer__social-icon">
+                <a href="#" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <p class="footer__copyright">&#x00a9; 2024 Miguel Trujillo</p>
+        </section>
+      </footer>
     </div>
   </body>
 </html>
