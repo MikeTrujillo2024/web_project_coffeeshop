@@ -21,7 +21,18 @@
     top: 30px;
     right: 80px;
     height: 124px;
-    column-gap: 20px;
+    column-gap: 20px;    
     list-style-type: none;
+    
+  }
+  
+  .nav__link{
+    text-decoration:none ;
+    color: #000000;
+    opacity: 1;
+  }
+
+  .nav__link:hover{
+ opacity: 0.7;
   }
   
