@@ -14,3 +14,6 @@ Es una pagina de cafeteria, donde puedes hacer resevaciones, mostrar los horario
 # Mejoras
 
 Las mejoras son la interactividad que se puede hacer con javascript, y hacer lo que llaman el CRUD Con la interaccion de base de datos
+
+#Mostrar en
+https://miketrujillo2024.github.io//web_project_coffeeshop/
